@@ -1,0 +1,873 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Healthcare_Institution_H"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Healthcare_H -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Healthcare_H"/>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Healthcare_Institution_H -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Healthcare_Institution_H">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Healthcare_H"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Outside_Institution_H"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Outside_Institution_H -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Outside_Institution_H">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Healthcare_H"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Healthcare_Institution_H"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Abuse_Of_Prescribing_Privileges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Abuse_Of_Prescribing_Privileges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Assisted_Living -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Assisted_Living">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Care_Elderly"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Elderly_Home"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Elderly_Home -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Elderly_Home">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Care_Elderly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Baton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Baton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Ambulatory_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Ambulatory_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Care_Elderly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Care_Elderly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Counseling_Preventive_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Counseling_Preventive_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Early_Stage_Screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Early_Stage_Screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Emergency_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Emergency_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Inpatient_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Inpatient_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Specialist_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Specialist_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Surgical_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Surgical_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Denial_Of_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Doxing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Doxing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Dropping_Observation_From_Analyses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Dropping_Observation_From_Analyses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Outside_Family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Elderly"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Intimidation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Intimidation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Intimidation_And_Threat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Intimidation_And_Threat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Excessive_Use_Of_Physical_Force -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Excessive_Use_Of_Physical_Force">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Assisted_Living"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Elderly_Home"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Communicable_Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Communicable_Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Extreme_Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Extreme_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Harmful_Chemicals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Harmful_Chemicals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Radiation_And_Noise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Radiation_And_Noise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Failure_Of_Informed_Consent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Failure_Of_Informed_Consent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Failure_To_Provide_Oversight_As_Required -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Failure_To_Provide_Oversight_As_Required">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Elderly"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Exploitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Exploitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Fraud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Fraud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Society"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Overburdening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Overburdening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Hand_Gun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Hand_Gun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Using_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Identity_Theft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Identity_Theft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Society"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Improper_Prescribing_Of_Drug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Improper_Prescribing_Of_Drug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Inappropriate_Restraining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Inappropriate_Restraining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Assisted_Living"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Elderly_Home"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_From_High_Voltage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_From_High_Voltage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Intentional_Injury"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Unintentional_Injury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Using_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Using_Lethal_Weapon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Using_Lethal_Weapon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Intentional_Injury"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Unintentional_Injury"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Intentional_Injury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Intentional_Injury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Law_Enforcement"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Unintentional_Injury"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Isolation_And_Intimidation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Isolation_And_Intimidation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Elderly"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Lack_Of_Timely_Attention_Leading_To_Injury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Lack_Of_Timely_Attention_Leading_To_Injury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Assisted_Living"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Elderly_Home"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Law_Enforcement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Law_Enforcement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Outside_Family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Neglect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Neglect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Assisted_Living"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#At_Elderly_Home"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Occupational"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Obstructionism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Obstructionism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Occupational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Occupational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Outside_Family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Occupational_Physical_Injury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Occupational_Physical_Injury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Within_Family"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Elderly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Elderly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Adult"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Within_Family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Adult"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Outside_Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Outside_Family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Outside_Institution_H"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Within_Family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Pepper_Spray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Pepper_Spray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Intentional_Injury"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Society"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_And_Social_Isolation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_And_Social_Isolation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Assault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Assault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Elderly"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Assault_Of_Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Assault_Of_Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Prejudicial_Bullying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Prejudicial_Bullying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Procedure_Violation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Procedure_Violation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Occupational"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional_Boundary_Violation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional_Boundary_Violation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Psychological_Assault_Of_Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Psychological_Assault_Of_Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Quid_Pro_Quo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Quid_Pro_Quo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Relational_Aggression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Relational_Aggression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Religious_Harassments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Religious_Harassments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Retaliation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Retaliation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Rifle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Rifle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Using_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Rubber_Bullet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Rubber_Bullet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Sexual_Abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Sexual_Abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Intentional_Injury"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Elderly"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Society"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Shot_Gun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Shot_Gun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Using_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Society -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Society">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Outside_Family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Stun_Grenades -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Stun_Grenades">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Taser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Taser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Tear_Gas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Tear_Gas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Threat_To_Violence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Threat_To_Violence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Unintentional_Injury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Unintentional_Injury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Law_Enforcement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Non_Professional"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Elderly"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Minor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Of_Spousal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Violation_Of_Confidentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Violation_Of_Confidentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Substandard_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Within_Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Within_Family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-4#Outside_Institution_H"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Abuse_Of_Prescribing_Privileges"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Dropping_Observation_From_Analyses"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Failure_Of_Informed_Consent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Failure_To_Provide_Oversight_As_Required"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Overburdening"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Improper_Prescribing_Of_Drug"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Assault_Of_Patient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Procedure_Violation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Professional_Boundary_Violation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Psychological_Assault_Of_Patient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Violation_Of_Confidentiality"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Baton"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Pepper_Spray"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Rubber_Bullet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Stun_Grenades"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Taser"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Tear_Gas"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Ambulatory_Service"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Care_Elderly"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Counseling_Preventive_Service"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Early_Stage_Screening"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Emergency_Care"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Inpatient_Care"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Specialist_Care"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Denial_Of_Surgical_Service"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Doxing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Intimidation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Prejudicial_Bullying"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Relational_Aggression"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Religious_Harassments"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Retaliation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Threat_To_Violence"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Doxing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Intimidation_And_Threat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Communicable_Disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Extreme_Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Harmful_Chemicals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Radiation_And_Noise"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Exploitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_From_High_Voltage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Obstructionism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Occupational_Physical_Injury"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_And_Social_Isolation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Quid_Pro_Quo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Sexual_Abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Doxing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Intimidation_And_Threat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Exposure_To_Communicable_Disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Exploitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Obstructionism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_And_Social_Isolation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Quid_Pro_Quo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Sexual_Abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Education"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Law_Enforcement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Occupational"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Society"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Emotional_Abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Isolation_And_Intimidation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Assault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Sexual_Abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Excessive_Use_Of_Physical_Force"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Inappropriate_Restraining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Lack_Of_Timely_Attention_Leading_To_Injury"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Neglect"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Financial_Fraud"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Identity_Theft"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Sexual_Abuse"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Hand_Gun"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Rifle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Shot_Gun"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Less_Lethal_Weapon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Injury_Using_Lethal_Weapon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Physical_Abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Sexual_Abuse"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
